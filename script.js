@@ -59,7 +59,7 @@ console.log(chosenValues)
  // Random generator function
  var generatedPassword = "";
 
- for (var x = 0; x < lengthConfirm; x++) {
+ for (var i = 0; i < lengthConfirm; i++) {
    generatedPassword += chosenValues[Math.floor(Math.random() * chosenValues.length -1)];
   
  } 
