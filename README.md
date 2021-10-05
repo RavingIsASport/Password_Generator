@@ -5,4 +5,4 @@ Just hit the "Generate Password" button, you will be asked a few questions, and 
 ## Deployed
 Password Generator deployed https://ravingisasport.github.io/Password_Generator/
 ## Gif of app
-![passgif](https://user-images.githubusercontent.com/87382254/136090879-b2f65560-3471-4ce1-8a05-a5a847c0e987.gif)
+![pass](https://user-images.githubusercontent.com/87382254/136094581-9a5f542e-03a1-4861-b20e-6908d1d35e16.gif)
