@@ -31,7 +31,7 @@ function generatePassword() {
     var lowerConfirm = window.confirm("Include lowercase letters? Cancel to continue without lowercase.");
     var numberConfirm = window.confirm("Include numbers? Cancel to continue without numbers.");
     var symbolConfirm = window.confirm("Include special characters? Cancel to continue without special characters.");
-  }else { //check edge cases
+  } else { //check edge cases
     alert("Password must be 8-128 characters long. Please try again.")
   }
 
@@ -52,19 +52,19 @@ function generatePassword() {
   }
   if (upperConfirm != true && lowerConfirm != true &&
     numberConfirm != true && symbolConfirm != true) {
-      alert("Select any password option and specify the length"); //check edge cases
-  } 
-console.log(chosenValues)
+    alert("Select any password option and specify the length"); //check edge cases
+  }
+  console.log(chosenValues)
 
- // Random generator function
- var generatedPassword = "";
+  // Random generator function
+  var generatedPassword = "";
 
- for (var i = 0; i < lengthConfirm; i++) {
-   generatedPassword += chosenValues[Math.floor(Math.random() * chosenValues.length -1)];
-  
- } 
- console.log(generatedPassword)
-return generatedPassword;
+  for (var i = 0; i < lengthConfirm; i++) {
+    generatedPassword += chosenValues[Math.floor(Math.random() * chosenValues.length - 1)];
+
+  }
+  console.log(generatedPassword)
+  return generatedPassword;
 }
 
 // Add event listener to generate button
