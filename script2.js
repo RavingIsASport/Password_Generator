@@ -61,7 +61,7 @@ function generatePassword() {
     // Password created
     var yourPass = '';
     for ( var i = 0; i < charLength; i++){
-        yourPass += confirmVal[Math.floor(Math.random() * charLength)]
+        yourPass += confirmVal[Math.floor(Math.random() * confirmVal.length)]
     };
     return yourPass;
     console.log(yourPass);
