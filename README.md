@@ -1,5 +1,9 @@
 # Password_Generator
 If you're looking for a string password that no one will be able to crack, this will help.
+## Table of content
+- [How to Generate](#how-to-generate)
+- [Deployed](#deployed)
+- [Gif](#gif-of-app)
 ## How to generate
 Just hit the "Generate Password" button, you will be asked a few questions, and then you got yourself a tough to crack password. The code behind it randomly selects any characters and the amount of your choice, if its between 8 to 128 characters.
 ## Deployed
